@@ -62,7 +62,7 @@ export const Resume = (props) => {
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
       <ResumeHeading
-        heading={"YORK UNIVERSITY | Toronto, Ontario"}
+        heading={"YORK UNIVERSITY | Toronto, ON"}
         subHeading={"Bachelor of Science"}
         fromDate={"2016"}
         toDate={"2018"}
@@ -103,7 +103,6 @@ export const Resume = (props) => {
     >
       {programingSkillsDetails.map((skill, index) => (
         <div className="skill-parent" key={index}>
-          <div className="heading-bullet"></div>
           <span>{skill.skill}</span>
           <div className="skill-percentage">
             <div
@@ -165,7 +164,7 @@ export const Resume = (props) => {
   return (
     <div className="resume-container screen-container" id={props.id || ""}>
       <div className="resume-content">
-        <ScreenHeading title={"Resume"} subHeading={"My formal Bio Details"} />
+        <ScreenHeading title={"Resume"} subHeading={"My Formal Bio Details"} />
         <div className="resume-card">
           <div className="resume-bullets">
             <div className="bullet-container">
